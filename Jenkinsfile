@@ -1,6 +1,7 @@
 pipeline { 
-agentany
-stages { stage('Checkout'){
+agent any
+stages { 
+stage('Checkout'){
 steps{
 echo'Checkingoutsourcecode...'
 }
